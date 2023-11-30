@@ -1,0 +1,44 @@
+openapi: 3.0.3
+info:
+  description: ddd_architecture_hexagonal_practice API
+  title: ddd_architecture_hexagonal_practice API
+  version: 1.0.0
+servers:
+- url: https://ddd_architecture_hexagonal_practice
+paths:
+  /users:
+    post:
+      operationId: saveUser
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserDto'
+        required: true
+      responses:
+        "200":
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/UserDto'
+          description: OK
+      summary: POST users
+      x-content-type: application/json
+      x-accepts: '*/*'
+components:
+  schemas:
+    UserDto:
+      example:
+        address: address
+        name: name
+        id: 0
+      properties:
+        id:
+          format: int64
+          type: integer
+        name:
+          type: string
+        address:
+          type: string
+      type: object
+
