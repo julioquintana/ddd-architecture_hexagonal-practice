@@ -1,10 +1,10 @@
-package com.quintanasystem.dddarchitecture_hexagonalpractice;
+package com.quintanasystem.architecturehexagonalpractice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DddArchitectureHexagonalPracticeApplicationTests {
+class SpringBootServiceTests {
 
 	@Test
 	void contextLoads() {
