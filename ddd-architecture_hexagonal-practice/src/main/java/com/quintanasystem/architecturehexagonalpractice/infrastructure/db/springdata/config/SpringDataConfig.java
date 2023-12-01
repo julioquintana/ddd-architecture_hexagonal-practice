@@ -16,8 +16,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @Configuration
 @EnableJpaAuditing
 @NoArgsConstructor
-@EntityScan(basePackages = {"com.quintanasystem.architecturehexagonalpractice.infrastructure",
-        "com.quintanasystem.architecturehexagonalpractice.infrastructure.db.springdata.mapper"})
+@EntityScan(basePackages = "com.quintanasystem.architecturehexagonalpractice.infrastructure")
 @EnableJpaRepositories(
         basePackages = "com.quintanasystem.architecturehexagonalpractice.infrastructure.db.springdata.repository")
 @ConfigurationProperties("spring.datasource")

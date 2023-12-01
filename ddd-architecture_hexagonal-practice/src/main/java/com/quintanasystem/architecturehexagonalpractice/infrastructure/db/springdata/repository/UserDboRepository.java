@@ -1,6 +1,6 @@
 package com.quintanasystem.architecturehexagonalpractice.infrastructure.db.springdata.repository;
 
-import com.quintanasystem.architecturehexagonalpractice.application.repository.UserRepository;
+import com.quintanasystem.architecturehexagonalpractice.domain.repository.UserRepository;
 import com.quintanasystem.architecturehexagonalpractice.domain.User;
 import com.quintanasystem.architecturehexagonalpractice.infrastructure.db.springdata.mapper.UserEntityMapper;
 import lombok.RequiredArgsConstructor;

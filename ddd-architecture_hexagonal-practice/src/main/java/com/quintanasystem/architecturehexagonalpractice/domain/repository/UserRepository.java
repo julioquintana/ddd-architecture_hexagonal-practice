@@ -1,4 +1,4 @@
-package com.quintanasystem.architecturehexagonalpractice.application.repository;
+package com.quintanasystem.architecturehexagonalpractice.domain.repository;
 
 import com.quintanasystem.architecturehexagonalpractice.domain.User;
 
